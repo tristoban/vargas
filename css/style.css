@@ -179,3 +179,33 @@
 .icono_vargas{
     color:#30281b;
 }
+
+
+/* ABOUT */
+
+.about_car{
+    color:#fff;
+    font-size: large;
+}
+
+.carrousel_about{
+    background-image: url(/img/bannerabout.png);
+    background-size: cover;
+    overflow: hidden;
+    padding-left: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.titulo_nar{
+    color:#F05010;
+    text-align: center;
+    font-weight:500;
+    font-size: large;
+    font-family: 'roboto';
+}
+
+.subtitulo_about{
+    color:#30281b;
+    text-align: center;
+}

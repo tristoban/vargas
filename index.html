@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <!-- NAV -->
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 ">
           <a href="/index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
@@ -21,21 +23,24 @@
             <li class="nav-item"><a href="/about.html" class="nav-link main_c">SOBRE VARGAS</a></li>
             <li class="nav-item"><a href="/faq.html" class="nav-link main_c">FAQ's</a></li>
             <li class="nav-item"><a href="#" class="nav-link main_c">CONTACTO</a></li>
-            <li class="nav-item"><a href="#" class="nav-link main_c">TIENDA</a></li>
+            <li class="nav-item"><a href="https://vargas.muy.promo/" target="_blank" class="nav-link main_c">TIENDA</a></li>
           </ul>
         </header>
       </div>
     
+      <!-- CARROUSEL -->
     <section class="carrousel">
         <p class="texto_car_1">OBSESION POR <br>LOS DETALLES</p>
-        <button type="button" class="btn btn-primary btn-md px-4 me-md-2 item_c_main">Visitá la tienda</button>
+        <a href="https://vargas.muy.promo/" target="_blank"><button type="button" class="btn btn-primary btn-md px-4 me-md-2 item_c_main">Visitá la tienda</button></a>
     </section>
     
+
+    <!-- HERO -->   
     <section class="container ref_pos border-bottom">
         <div class="container col-xxl-12 px-4 py-5"> 
             <div class="row flex-lg-row align-items-center g-5 py-5">
               <div class="col-10 col-sm-8 col-lg-6">
-                <img src="/img/sobrevg.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                <img src="/img/sobrevg.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                 <div class="vargas_historia"></div>
               </div>
               <div class="col-lg-6">
@@ -48,13 +53,15 @@
                     relación con nuestros clientes, y ser un aliado estratégico 
                     en sus acciones de Marketing y Comunicación.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button type="button" class="btn btn-primary btn-md px-4 me-md-2 item_c_main">Sobre Vargas</button>
+                  <a href="/about.html"><button type="button" class="btn btn-primary btn-md px-4 me-md-2 item_c_main">Sobre Vargas</button></a>
                 </div>
               </div>
             </div>
           </div>
     </section>
 
+
+    <!-- NUESTROS CLIENTES -->
     <section class="nuestros clientes ">
         <div class="container">
             <p class="clientes_p mt-4">NUESTROS CLIENTES</p>
@@ -65,18 +72,19 @@
         </div>
     </section>
         
+    <!-- RUBROS -->
     <section class="rubros_destacados mt-5 mb-4">
         <p class="titulo_rub">RUBROS DESTACADOS</p>
         <div class="container d-flex">
-            <div class="col-6 rubro">
-                <img src="/img/gastroteleria.png" alt="">
+            <div class="col-6 rubro rounded">
+                <a href="/categorias.html"><img src="/img/gastroteleria.png" alt=""></a>
                 <p class="subtitulo_rub">GASTRONOMÍA / HOTELERÍA</p>
                 <p class="texto_rub">Grandes clientes nos contratan para fabricar en los materiales de mayor 
                     calidad, todo tipo de objetos. Clickeá la imagen para ver ejemplos 
                     y pedir cotizaciones.</p>
             </div>
-            <div class="col-6 rubro">
-                <img src="/img/regalosmerch.png" alt="">
+            <div class="col-6 rubro rounded">
+                <a href="/categorias.html"><img src="/img/regalosmerch.png" alt=""></a>
                 <p class="subtitulo_rub">REGALOS / MERCH</p>
                 <p class="texto_rub">Una fábrica entera a tu disposición para realizar el regalo ideal,
                     el Merch perfecto que tu marca necesita.</p>
@@ -85,31 +93,34 @@
 
     </section>
 
+
+    <!-- INSTA -->
     <section class="nuestro_insta mb-4">
         <div class="container d-flex">
             <div class="col-8 m-auto">
                 <p class="titulo_rub">NUESTRO INSTA</p>
                 <p class="subtitulo_insta">¡Seguinos y sé parte de cada proyecto que realizamos!</p>
                 <div class="container d-flex justify-content-center mt-4">
-                    <div class="insta">
+                    <div class="insta rounded">
                         <img src="/img/insta1.png" alt="">
                     </div>
-                    <div class="insta">
+                    <div class="insta rounded">
                         <img src="/img/insta2.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="col-4">
-                <img src="/img/celular.png" alt="">
+                <a href="https://www.instagram.com/vargas.arg/" target="_blank"><img src="/img/celular.png" alt=""></a>
             </div>
         </div>
     </section>
 
-    <section class="elegidos mt-4">
-    
-    <p class="titulo_rub">ELEGIDOS</p>
-    <p class="subtitulo_insta">La selección de la casa, el equilibrio perfecto entre lo más vendido y los favoritos de Vargas</p>
+    <!-- ELEGIDOS -->
+    <section class="elegidos mt-4">    
+        <p class="titulo_rub">ELEGIDOS</p>
+        <p class="subtitulo_insta">La selección de la casa, el equilibrio perfecto entre lo más vendido y los favoritos de Vargas</p>
 
+     <!-- ELEGIDO 1 -->   
     <div class="album py-5 bg-light">
         <div class="container d-flex justify-content-between">
             <div class="col-md-4">
@@ -127,6 +138,7 @@
                 </div>
             </div>
 
+            <!-- ELEGIDO 2 -->   
             <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="/img/item102.png" alt="">
@@ -142,6 +154,7 @@
                 </div>
             </div>
 
+            <!-- ELEGIDO 3 -->   
             <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="/img/item103.png" alt="">
@@ -161,23 +174,23 @@
 
     </section>
 
-
+    <!-- FOOTER -->   
     <footer class="">
         <div class="container d-flex justify-content-center align-item-center">
             <div class="col-3 d-flex flex-column">            
                 <a href="/index.html"><img src="/svg/logo-01.svg" class="logo_footer" alt=""></a>
-                <a href="#" class="footer_text_a mt-4">TIENDA</a>
-                <a href="#" class="footer_text_a mt-4">FAQ</a>
+                <a href="https://vargas.muy.promo/" class="footer_text_a mt-4">TIENDA</a>
+                <a href="/faq.html" class="footer_text_a mt-4">FAQ</a>
                 <a href="#" class="footer_text_a mt-4">CONTACTO</a>
         </div>
-            <div class="col-3 container d-flex flex-column justify-content-center footer_centro">            
+            <div class="col-6 container d-flex flex-column justify-content-center footer_centro">            
                 <a href="#" class="footer_text_a">HABLEMOS</a>
                 <a href="#" class="footer_text_b mt-1">hola@vargasr.com.ar</a>
                 <p class="footer_text_c mt-2">2022 Vargasr. Todos los derechos reservados.</p>
             </div>
             <div class="col-3 container d-flex flex-column footer_derecha">            
                 <p class="footer_text_a">SEGUINOS</p>
-                <a href=""><img src="/svg/insta.svg" height="25" class="icono_vargas" alt=""></a><a href=""><img src="/svg/face.svg" height="25" class="icono_vargas" alt=""></a>
+                <a href="https://www.instagram.com/vargas.arg/"><img src="/svg/insta.svg" height="25" class="icono_vargas" alt=""></a><a href=""><img src="/svg/face.svg" height="25" class="icono_vargas" alt=""></a>
             </div>
         </div>
     </footer>
