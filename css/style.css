@@ -201,11 +201,52 @@
     color:#F05010;
     text-align: center;
     font-weight:500;
-    font-size: large;
+    font-size: x-large;
     font-family: 'roboto';
 }
 
 .subtitulo_about{
     color:#30281b;
+    text-align: center;
+}
+
+.titulo_paso{
+    font-family: 'roboto';
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 700;
+    color:#635339;
+    margin-top:1em;
+}
+
+.desc_paso{
+    text-align: center;
+    font-size: small;
+    color:#635339;
+}
+
+.texto_imagen_about{
+    background-image: url(/img/20.png);
+    background-size: cover;
+    display:flex;
+    color:rgba(255,255,255,0.6);
+    justify-content: center;
+    font-size: 6em;
+    font-family: 'roboto';
+    font-weight: 800;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;   
+}
+
+.borde_naranja{
+    border-bottom: #F05010;
+}
+
+.titulo_rubro_card{
+    font-family: 'roboto';
+    color:#635339;
+    font-weight: 700;
+    font-size: xx-large;
     text-align: center;
 }
