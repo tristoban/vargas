@@ -37,7 +37,8 @@
 }
 
 .texto_car_1{
-    font-size: 3em;
+    font-size: 4em;
+    font-family: 'roboto';
     font-weight: 800;
     color:#fff;
 }
@@ -53,7 +54,8 @@
 .texto_titulo{
     color:#635339;
     font-weight: 600;
-    font-size:large;
+    font-size:x-large;
+    font-family: 'roboto';
 }
 
 .texto_parrafo{
@@ -75,12 +77,105 @@
 /* CLIENTES */
 
 .clientes_p{
-    color:#B5ADA1;
-    font-size: large;
+    color:#808080;
+    font-size: x-large;
+    font-family: 'roboto';
     font-weight:900;    
 }
 
 .logos_c img{
     margin-left:3em;
     margin-top:2em;
+}
+
+/* RUBROS */
+
+.titulo_rub{
+    display:flex;
+    justify-content: center;
+    color:#F05010;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: 'roboto';
+    text-align: center;   
+}
+
+.subtitulo_rub{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'roboto';
+    font-weight: 700;
+    color:#635339;
+}
+
+.texto_rub{
+    text-align: center;
+    color:#30281b;
+    font-size: medium;
+}
+
+.rubro img{
+
+}
+
+
+/* RUBROS */
+
+.subtitulo_insta{
+    text-align: center;
+    color:#F05010;
+}
+
+.insta{
+    
+    margin-left:1em;
+    margin-right: 1em;
+}
+
+
+/* FOOTER */
+
+.logo_footer{
+    margin-top: 2em;
+    color:#30281b;
+    height: 2em;
+}
+
+
+.footer_text_a{
+    text-decoration: none;
+    color:#635339;
+}
+
+.footer_text_a:hover{
+    color:#F05010;
+}
+
+.footer_text_a:active{
+    color:#F05010;
+}
+
+
+.footer_centro{
+    margin-top: 10em;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.footer_text_b{
+    text-decoration: none;
+    color:#F05010;
+}
+
+.footer_text_c{
+    font-size:small;
+}
+
+.footer_derecha{
+    margin-top: 2em;
+}
+
+.icono_vargas{
+    color:#30281b;
 }
