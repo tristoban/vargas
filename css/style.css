@@ -37,6 +37,7 @@
 }
 
 .texto_car_1{
+
     font-size: 4em;
     font-family: 'roboto';
     font-weight: 800;
@@ -197,6 +198,10 @@
     padding-bottom: 80px;
 }
 
+
+.pepito{
+    display:flex;
+}
 .titulo_nar{
     color:#F05010;
     text-align: center;
@@ -234,7 +239,7 @@
     font-size: 6em;
     font-family: 'roboto';
     font-weight: 800;
-    text-align: center;
+    
     padding-top: 0.5em;
     padding-bottom: 0.5em;   
 }
@@ -249,4 +254,166 @@
     font-weight: 700;
     font-size: xx-large;
     text-align: center;
+}
+
+.pasos_pc{
+
+}
+
+
+.pasos_mobile{
+    display:none;
+}
+
+
+/* PREGUNTAS FRECUENTES */ 
+
+.banner_faq{
+    background-image: url(/img/faqbanner.png);
+    background-size: cover;
+    color:#fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: 'roboto';
+    font-size: 2em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+.texto_faq{
+    font-size: large;
+    font-weight: 500;
+}
+
+.ajuste_content{
+    justify-content:initial;
+}
+
+
+
+@media(max-width:768px){
+    .logo_sup{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .carrousel{
+    background-image: url(/img/carrousel.jpg);
+    background-size: cover;
+    overflow: hidden;
+    padding-left:0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+    .texto_car_1{
+    display:flex;
+    font-size: 2em;
+    font-family: 'roboto';
+    font-weight: 800;
+    color:#fff;
+    padding-left:5px;
+    padding-right:5px;
+    justify-content: center;
+    text-align: center;
+    }
+    .boton_carru{
+        display:none;
+    }
+
+    .img_hero{
+        display:none;
+    }
+    .titulo_rub{
+        color:#F05010;
+        font-size: x-large;
+        font-weight: 800;
+        font-family: 'roboto';
+        text-align: center;   
+    }
+    .texto_rub{
+        text-align: center;
+        color:#30281b;
+        font-size:medium;
+    }
+    .ajuste_content{
+        justify-content:center;
+    }
+    .insta_2{
+        display:none;
+        margin-left:1em;
+        margin-right: 1em;
+    }
+
+    .carrousel_about{
+        background-image: url(/img/bannerabout.png);
+        background-size: cover;
+        overflow: hidden;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .texto_car_1{
+        display:flex;
+        font-size: 3em;
+        font-family: 'roboto';
+        font-weight: 800;
+        color:#fff;
+        justify-content:center;
+    }
+    .about_car{
+        display:none;
+        color:#fff;
+        font-size: large;
+    }
+    .texto_imagen_about{
+        font-size: 3em;
+        padding-top: 0em;
+        padding-bottom: 0em;   
+    }
+    .clientes_p{
+        display:flex;
+        justify-content: center;
+        color:#808080;
+        font-size: large;
+        font-family: 'roboto';
+        font-weight:900;    
+        text-align: center;
+    }
+    .pasos_pc{
+        display:none;
+    }
+    
+    .img-hero{
+        display:none;
+    }
+    .pasos_mobile{
+        display:initial;
+    }
+    .logos_c img{
+        margin-left:0em;
+        margin-top:0em;
+    }
+    .logo_footer{
+        margin-top: 0em;
+        color:#30281b;
+        height: 0em;
+    }
+
+    #footer_izquierda{
+        color:#fff;
+    }
+
+    #footer_derecha{
+        color:#fff;
+    }
+    .footer_centro{
+        display:none;
+        margin-top: 0em;
+        align-items: center;
+        justify-content: initial;
+        text-align: center;
+    }
 }
