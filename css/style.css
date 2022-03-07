@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,700;0,800;1,700;1,800&display=swap");
 * {
   font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-   box-sizing: border-box;
-   overflow-x: hidden;
+ }
+
+.fuente{
+    font-family: 'Roboto', sans-serif;
 }
+
 
 /* NAVEGADOR */
 
@@ -133,8 +133,18 @@
     margin-right: 1em;
 }
 
+#more {display: none;}
 
 /* FOOTER */
+
+.texto_alternado{
+    color:#30281b;
+}
+
+
+.texto_alternado:hover{
+    color:#30281b;
+}
 
 .logo_footer{
     margin-top: 2em;
@@ -288,6 +298,115 @@
 .ajuste_content{
     justify-content:initial;
 }
+
+
+/* CATEGORIAS */
+.banners{
+    background-size: cover;
+    overflow: hidden;
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.banner_g {
+    background-image: url(/img/gastrobanner.png);
+}
+
+.texto_banner_g{
+    font-size: 4em;
+    font-family: 'roboto';
+    font-weight: 800;
+    color:#fff;
+    text-decoration: none;
+}
+
+.texto_banner_g:hover{
+    color:#F05010;
+    text-decoration: none;
+}
+
+.banner_h {
+    background-image: url(/img/hotelbanner.png);
+}
+
+.texto_banner_h{
+    font-size: 4em;
+    font-family: 'roboto';
+    font-weight: 800;
+    color:#fff;
+    text-decoration: none;
+    text-align: right;
+}
+
+.texto_banner_h:hover{
+    color:#F05010;
+    text-decoration: none;
+}
+
+.banner_r {
+    background-image: url(/img/regalosbanner.png);
+}
+
+.texto_banner_r{
+    font-size: 4em;
+    font-family: 'roboto';
+    font-weight: 800;
+    color:#fff;
+    text-decoration: none;
+}
+
+.texto_banner_r:hover{
+    color:#F05010;
+    text-decoration: none;
+}
+
+.banner_m {
+    background-image: url(/img/merchbanner.png);
+}
+
+.texto_banner_m{
+    font-size: 4em;
+    font-family: 'roboto';
+    font-weight: 800;
+    color:#fff;
+    text-decoration: none;
+    text-align: right;
+}
+
+.texto_banner_m:hover{
+    color:#F05010;
+    text-decoration: none;
+}
+
+
+/* GASTRONOMIA */
+
+.texto_banner_g_main{
+    background-size: cover;
+    overflow: hidden;
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 3em;
+    font-family: 'roboto';
+    font-weight: 800;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.texto_tit_card{
+    display:flex;
+    justify-content: center;
+    color:#635339;
+    font-weight: 600;
+    font-size:x-large;
+    font-family: 'roboto';
+}
+
 
 
 
