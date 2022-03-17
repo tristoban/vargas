@@ -42,15 +42,34 @@
                     <li class="nav-item"><a href="/about.html" class="nav-link main_c">SOBRE VARGAS</a></li>
                     <li class="nav-item"><a href="/faq.html" class="nav-link main_c">FAQ's</a></li>
                     <li class="nav-item"><a href="https://vargas7.mitiendanube.com/contacto/" class="nav-link main_c">CONTACTO</a></li>
-                    <li class="nav-item"><a href="https://vargas.muy.promo/" target="_blank" class="nav-link main_c">TIENDA</a></li>
+                    <li class="nav-item"><a href="https://vargas.muy.promo/" target="_blank" class="nav-link main_c" data-bs-toggle="modal" data-bs-target="#exampleModal">TIENDA</a></li>
                 </ul>
             </div>
           </div>
       </nav>
+
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Vargas pregunta:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            ¿Cual tienda te gustaría visitar?
+        </div>
+        <div class="modal-footer">
+            <a class="btn btn-light" href="https://vargas.muy.promo/" role="button">Importados</a>
+            <a class="btn btn-light" href="https://vargas7.mitiendanube.com/" role="button">Local</a>
+        </div>
+      </div>
+    </div>
+  </div>
       <!-- CARROUSEL -->
     <section class="carrousel">
         <p class="texto_car_1">OBSESION POR <br>LOS DETALLES</p>
-        <a href="https://vargas.muy.promo/" target="_blank"><button type="button" class="btn btn-primary btn-md px-4 me-md-2 boton_carru item_c_main">Visitá la tienda</button></a>
+        <a data-bs-toggle="modal" data-bs-target="#exampleModal" target="_blank"><button type="button" class="btn btn-primary btn-md px-4 me-md-2 boton_carru item_c_main">Visitá la tienda</button></a>
     </section>
     <!-- HERO -->   
     <section class="container ref_pos border-bottom">
@@ -101,7 +120,7 @@
                 <a href="/categorias.html"><img src="/img/gastroteleria.png" class="img-fluid rounded" alt=""></a>
                 <p class="subtitulo_rub">GASTRONOMÍA / HOTELERÍA</p>
                 <p class="texto_rub">Grandes clientes nos contratan para fabricar en los materiales de mayor 
-                    calidad,<br> todo tipo de objetos. Clickeá la imagen para ver ejemplos 
+                    calidad, todo tipo de objetos. Clickeá la imagen para ver ejemplos 
                     y pedir cotizaciones.</p>
             </div>
             <div class="col-12 col-md-6 ajuste_content">

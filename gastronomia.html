@@ -41,11 +41,30 @@
                 <li class="nav-item"><a href="/about.html" class="nav-link main_c">SOBRE VARGAS</a></li>
                 <li class="nav-item"><a href="/faq.html" class="nav-link main_c">FAQ's</a></li>
                 <li class="nav-item"><a href="https://vargas7.mitiendanube.com/contacto/" class="nav-link main_c">CONTACTO</a></li>
-                <li class="nav-item"><a href="https://vargas.muy.promo/" target="_blank" class="nav-link main_c">TIENDA</a></li>
+                <li class="nav-item"><a href="https://vargas.muy.promo/" target="_blank" class="nav-link main_c" data-bs-toggle="modal" data-bs-target="#exampleModal">TIENDA</a></li>
             </ul>
         </div>
       </div>
   </nav>
+
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Vargas pregunta:</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          ¿Cual tienda te gustaría visitar?
+      </div>
+      <div class="modal-footer">
+          <a class="btn btn-light" href="https://vargas.muy.promo/" role="button">Importados</a>
+          <a class="btn btn-light" href="https://vargas7.mitiendanube.com/" role="button">Local</a>
+      </div>
+    </div>
+  </div>
+</div>
   
   <section class="banner_g">
     <P class="texto_banner_g_main">GASTRONOMIA & HOTELERIA</a>
@@ -60,34 +79,200 @@
         <div class="container">
             <p class="clientes_p mt-4">NUESTROS CLIENTES</p>
         </div>
-        <div class="container d-flex flex-wrap logos_c align-items-center justify-content-center">
+        <div class="container d-flex flex-wrap logos_c align-items-center justify-content-center mb-4">
             <img src="/svg/chandon-05.svg" height="150" alt=""><img src="/svg/norton-05.svg" height="150" alt="">><img src="/svg/american_express-04.svg" height="150" alt=""><img src="/svg/kentucky-07.svg" height="150" alt=""><img src="/svg/zuccardi-06.svg" height="150" alt="">
 
         </div>
     </section>
-     <!-- ELEGIDO 1 -->   
-    <div class="album py-5 bg-light">
-        <p class="titulo_rub">CATÁLOGO GASTRONOMICO</p>
-        <div class="container d-flex flex-wrap justify-content-center">
-            
-            <!-- ELEGIDO 3 -->   
-            <div class="col-10 col-md-4">
-                <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="/img/item103.png" alt="">
-                <div class="card-body">
-                    <p class="card-text texto_tit_card">Menú</p>
-                    <p class="card-text desc_paso">La Carta del Menú, muestra en una forma reducida el alma de tu negocio. Es la ventana por la que el cliente mira tu cocina. No pierdas la oportunidad de dar la mejor impresión.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                        <a href="https://vargas7.mitiendanube.com/productos/cartas-menu/" target="_blank"><button  type="button" class="btn btn-sm btn-outline-secondary">Ver en tienda</button></a>
+     <!-- CATALOGO 1 -->   
+    <div class="album py-1 bg-light mt-3 banner_cartas">
+        <p class="titulo_rub ">NUESTRAS CARTAS</p>
+        <div class="container">
+    
+            <!-- LINEA FOLK --> 
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 d-flex justify-content-center">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="card-img-top" src="/img/cuero1.png" alt="">
+                    <p class="card-text d-flex justify-content-center marron mt-3"><strong>CUERO</strong></p>
+                    <div class="card-body">
+                      <p class="card-text">De cuero legítimo, un material irremplazable y de la más alta calidad. Si tu propuesta es muy típica Argentina, esta es tu carta.
+                    </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary mt-0">Gestionar consulta</button>
+                        </div>
+                        <small class="text-muted">Línea Folk</small>
+                      </div>
                     </div>
-                    <small class="text-muted">¡Más visitado!</small>
-                    </div>
+                  </div>
                 </div>
+
+                <!-- LINEA TAP --> 
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="card-img-top" src="/img/similcuero1.png" alt="">
+                        <p class="card-text d-flex justify-content-center marron mt-3"><strong>SIMIL CUERO</strong></p>
+                        <div class="card-body">
+                          <p class="card-text">Las mas durables, versátiles y coloridas, excelente alternativa y opción al cuero. Extremadamente popular entre los clientes de Vargas.
+                        </p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary mt-0">Gestionar consulta</button>
+                            </div>
+                            <small class="text-muted">Línea Tap</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                 <!-- LINEA JAZZ --> 
+                 <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="card-img-top" src="/img/item103.png" alt="">
+                        <p class="card-text d-flex justify-content-center marron mt-3"><strong>TELA DE TAPICERIA</strong></p>
+                        <div class="card-body">
+                          <p class="card-text">Lanzamos estas cartas hace años para un cliente y se convirtieron en mayor éxito. El clásico de Vargas. Nuestro top #1.
+                        </p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary mt-0">Gestionar consulta</button>
+                            </div>
+                            <small class="text-muted">Línea Jazz</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <!-- LINEA BLUES --> 
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="card-img-top" src="/img/pvc.png" alt="">
+                        <p class="card-text d-flex justify-content-center marron mt-3"><strong>PVC TRANSLUCIDO</strong></p>
+                        <div class="card-body">
+                          <p class="card-text">El caballito de batalla de la gastronomía, en todos los tamaños y cantidad de carillas. La propuesta mas flexible. Con ribetes plásticos, simil cuero o tela de tapicería.
+                        </p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary mt-0">Gestionar consulta</button>
+                            </div>
+                            <small class="text-muted">Línea Blues</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <!-- LINEA OPERA --> 
+                <div class="col border-bottom">
+                    <div class="card shadow-sm">
+                        <img class="card-img-top" src="/img/opera.png" alt="">
+                        <p class="card-text d-flex justify-content-center marron mt-3"><strong>EXCLUSIVAS</strong></p>
+                        <div class="card-body">
+                          <p class="card-text">Estas son cartas realmente únicas. Hechas para vos. Con tus imagenes, con telas exclusivas. El destaque definitivo. Un trabajo dedicado de la mano de Vargas
+                        </p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary mt-0">Gestionar consulta</button>
+                            </div>
+                            <small class="text-muted">Línea Opera</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- CATALOGO 1 -->   
+    <div class="album py-3 bg-light">
+        <p class="titulo_rub">ACCESORIOS MESAS</p>
+        <div class="container">
+    
+            <!-- LINEA FOLK --> 
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 d-flex justify-content-center">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="card-img-top" src="/img/manteles.png" alt="">
+                    <p class="card-text d-flex justify-content-center marron mt-3"><strong>MANTELES</strong></p>
+                    <div class="card-body">
+                      <p class="card-text">Los mejores manteles del mercado, contrapegados a máquina. Te darán un resultado inigualable, más que probados en el mercado, no se engloban, no se levantan las puntas, no despiden olor. Ideal para un restaurante tradicional, moderno y elegante.
+                    </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary mt-0">Gestionar consulta</button>
+                        </div>
+                        <small class="text-muted">¡Varios modelos!</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- LINEA FOLK --> 
+                <div class="col">
+                    <div class="card shadow-sm">
+                      <img class="card-img-top" src="/img/panera.png" alt="">
+                      <p class="card-text d-flex justify-content-center marron mt-3"><strong>PANERAS</strong></p>
+                      <div class="card-body">
+                        <p class="card-text">La experiencia gastronómica de nuestros clientes hicieron que podamos elegir el mejor modelo para sus servicios, porque son apilables, porque son higiénicas, porque ocupan poco espacio ¡y porque te hacen ahorrar pan!
+                      </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary mt-0">¡No puede faltar!</button>
+                          </div>
+                          <small class="text-muted"></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- LINEA FOLK --> 
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img class="card-img-top" src="/img/portadiciones.png" alt="">
+                      <p class="card-text d-flex justify-content-center marron mt-3"><strong>PORTA ADICIONES</strong></p>
+                      <div class="card-body">
+                        <p class="card-text">Llevar la cuenta es el broche de oro para tu propuesta, discretas y elegantes. Te presentamos algunas imagenes sin olvidarnos que tendremos que adaptarlas a tu propuesta global de cartas menú.
+                      </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary mt-0">Gestionar consulta</button>
+                          </div>
+                          <small class="text-muted">Broche de oro</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="album py-5 bg-light">
+            <p class="titulo_rub">HOTELERÍA</p>
+            <div class="container">
+        
+                <!-- LINEA FOLK --> 
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 d-flex justify-content-center">
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img class="card-img-top" src="/img/directorio.png" alt="">
+                        <p class="card-text d-flex mt-3 justify-content-center marronmt-3"><strong>DIRECTORIOS DE HABITACIÓN</strong></p>
+                    <div class="card-body">
+                      <p class="card-text">En las habitaciones, en los salones, en el SPA. Diversos productos de Vargas acompañando tu propuesta.
+                    </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary mt-0">Gestionar consulta</button>
+                        </div>
+                        <small class="text-muted">Recomendado!</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                    </div>
+                </div>
+            </div>
 
     </section>
 
