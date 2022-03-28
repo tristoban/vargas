@@ -15,14 +15,14 @@
 }
 
 .main_c:hover{
-    color:#F05010;
+    color:#400101;
     text-decoration-color: #635339;
 }
 
 .navformat{
     text-decoration: underline;
     text-underline-offset: 4px;
-    text-decoration-color: #F05010;
+    text-decoration-color: #400101;
 }
 
 /* CARROUSEL */
@@ -47,7 +47,7 @@
 /* HERO 1 */
 
 .texto_subtitulo{
-    color:#F05010;
+    color:#400101;
     font-size: small;
 }
 
@@ -63,8 +63,8 @@
 }
 
 .item_c_main{
-    background-color:#F05010;
-    border-color: #F05010;
+    background-color:#400101;
+    border-color: #400101;
 }
 
 .item_c_main:hover{
@@ -95,7 +95,7 @@
 .titulo_rub{
     display:flex;
     justify-content: center;
-    color:#F05010;
+    color:#400101;
     font-size: xx-large;
     font-weight: 800;
     text-align: center;   
@@ -130,7 +130,7 @@
 
 .subtitulo_insta{
     text-align: center;
-    color:#F05010;
+    color:#400101;
 }
 
 .insta{
@@ -165,11 +165,11 @@
 }
 
 .footer_text_a:hover{
-    color:#F05010;
+    color:#400101;
 }
 
 .footer_text_a:active{
-    color:#F05010;
+    color:#400101;
 }
 
 
@@ -182,7 +182,7 @@
 
 .footer_text_b{
     text-decoration: none;
-    color:#F05010;
+    color:#400101;
 }
 
 .footer_text_c{
@@ -219,7 +219,7 @@
     display:flex;
 }
 .titulo_nar{
-    color:#F05010;
+    color:#400101;
     text-align: center;
     font-weight:500;
     font-size: x-large;
@@ -261,7 +261,7 @@
 }
 
 .borde_naranja{
-    border-bottom: #F05010;
+    border-bottom: #400101;
 }
 
 .titulo_rubro_card{
@@ -329,7 +329,7 @@
 }
 
 .texto_banner_g:hover{
-    color:#F05010;
+    color:#400101;
     text-decoration: none;
 }
 
@@ -348,7 +348,7 @@
 }
 
 .texto_banner_h:hover{
-    color:#F05010;
+    color:#400101;
     text-decoration: none;
 }
 
@@ -365,7 +365,7 @@
 }
 
 .texto_banner_r:hover{
-    color:#F05010;
+    color:#400101;
     text-decoration: none;
 }
 
@@ -383,7 +383,7 @@
 }
 
 .texto_banner_m:hover{
-    color:#F05010;
+    color:#400101;
     text-decoration: none;
 }
 
@@ -452,7 +452,7 @@
         display:none;
     }
     .titulo_rub{
-        color:#F05010;
+        color:#400101;
         font-size: x-large;
         font-weight: 800;
         font-family: 'Montserrat';

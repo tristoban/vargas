@@ -34,9 +34,11 @@
                         <a href="/categorias.html" class="nav-link dropdown-toggle main_c" id="navbarDropdown" role="button"
                          data-bs-toggle="dropdown" aria-expanded="false">CATEGORIAS</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="/packaging.html">PACKAGING</a></li>
                           <li><a class="dropdown-item" href="/gastronomia.html">GASTRONOMIA / HOTELERÍA</a></li>
                           <li><a class="dropdown-item main_c" href="indumentaria.html">INDUMENTARIA / UNIFORMES</a></li>
                           <li><a class="dropdown-item" href="/regalos.html">REGALOS / MERCH</a></li>
+                          <li><a class="dropdown-item" href="/tusideas.html">TUS IDEAS</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a href="/about.html" class="nav-link main_c">SOBRE VARGAS</a></li>
@@ -105,7 +107,7 @@
             <p class="clientes_p mt-4">NUESTROS CLIENTES</p>
         </div>
         <div class="container d-flex flex-wrap logos_c align-items-center justify-content-center">
-            <img src="/svg/chandon-05.svg" height="150" alt=""><img src="/svg/boca-05.svg" height="150" alt=""><img src="/svg/norton-05.svg" height="150" alt=""><img src="/svg/kentucky-07.svg" height="150" alt=""><img src="/svg/zuccardi-06.svg" height="150" alt="">
+            <img src="/svg/chandon-05.svg" height="150" alt=""><img src="/svg/boca-05.svg" height="150" alt=""><img src="/svg/norton-05.svg" height="150" alt=""><img src="/svg/kentucky-07.svg" height="150" alt=""><img src="/svg/ruca-01.svg" height="150" alt="">
 
         </div>
     </section>
@@ -117,14 +119,14 @@
         </div>
         <div class="container d-flex flex-wrap">
             <div class="col-12 col-md-6 ajuste_content">
-                <a href="/categorias.html"><img src="/img/gastroteleria.png" class="img-fluid rounded" alt=""></a>
+                <a href="/gastronomia.html"><img src="/img/gastroteleria.png" class="img-fluid rounded" alt=""></a>
                 <p class="subtitulo_rub">GASTRONOMÍA / HOTELERÍA</p>
                 <p class="texto_rub">Grandes clientes nos contratan para fabricar en los materiales de mayor 
                     calidad, todo tipo de objetos. Clickeá la imagen para ver ejemplos 
                     y pedir cotizaciones.</p>
             </div>
             <div class="col-12 col-md-6 ajuste_content">
-                <a href="/categorias.html"><img src="/img/regalosmerch.png" class="rounded img-fluid" alt=""></a>
+                <a href="/regalos.html"><img src="/img/regalosmerch.png" class="rounded img-fluid" alt=""></a>
                 <p class="subtitulo_rub">REGALOS / MERCH</p>
                 <p class="texto_rub">Una fábrica entera a tu disposición para realizar el regalo ideal,
                     el Merch perfecto que tu marca necesita.</p>
@@ -157,61 +159,48 @@
     </section>
 
         <!-- ELEGIDOS -->
-        <section class="elegidos mt-4 ">    
-            <p class="titulo_rub">ELEGIDOS</p>
-            <p class="container subtitulo_insta">La selección de la casa, el equilibrio perfecto entre lo más vendido y los favoritos de Vargas</p>
-         <!-- ELEGIDO 1 -->   
-        <div class="album py-5 bg-light">
-            <div class="container d-flex flex-wrap justify-content-center">
-                <div class="col-10 col-md-4">
-                    <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="/img/item101.png" alt="">
-                    <div class="card-body">
-                        <p class="card-text desc_paso">Los más lindos bolsos para botellas en distintas medidas y materiales. Que el packaging sea un regalo en si mismo, es nuestro desafío</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Cotizar</button>
-                        </div>
-                        <small class="text-muted">¡Recomendado!</small>
-                        </div>
-                    </div>
-                    </div>
+        <section class="elegidos mt-4 mb-5 container">    
+            <p class="titulo_rub">FAMOSOS</p>
+            <p class="container subtitulo_insta">¿Sabías que ves nuestros productos desde toda la vida sin saber que los hicimos nosotros?</p>
+            <div id="carouselfamosos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselfamosos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselfamosos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselfamosos" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-    
-                <!-- ELEGIDO 2 -->   
-                <div class="col-10 col-md-4">
-                    <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="/img/item102.png" alt="">
-                    <div class="card-body">
-                        <p class="card-text desc_paso">Vestir una mesa elegante, moderna y delicada, es posible. No lo dudes, que tus próximos manteles individuales, cubres o caminos sean de Vargas.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Cotizar</button>
-                        </div>
-                        <small class="text-muted">¡Más vendido!</small>
-                        </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/famosos_1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Legrand</h5>
+                      <p>La mesa más famosa del país la decoramos desde Vargas</p>
                     </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/famosos_2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Boca Juniors</h5>
+                      <p>Gran cliente, packaging y diversos productos</p>
                     </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/famosos_3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Kentucky</h5>
+                      <p>Proveedores oficiales de indumentaria</p>
+                    </div>
+                  </div>
                 </div>
-    
-                <!-- ELEGIDO 3 -->   
-                <div class="col-10 col-md-4">
-                    <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="/img/item103.png" alt="">
-                    <div class="card-body">
-                        <p class="card-text desc_paso">La Carta del Menú, muestra en una forma reducida el alma de tu negocio. Es la ventana por la que el cliente mira tu cocina. No pierdas la oportunidad de dar la mejor impresión.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Cotizar</button>
-                        </div>
-                        <small class="text-muted">¡Más visitado!</small>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselfamosos" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselfamosos" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+       
         </section>
 
     <!-- FOOTER -->   
