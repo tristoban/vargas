@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700;800&display=swap");
 * {
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
  }
 
 .fuente{
@@ -38,7 +41,7 @@
 
 .texto_car_1{
 
-    font-size: 4em;
+    font-size:3.5em;
     font-weight: 800;
     color:#fff;
 }
@@ -206,7 +209,7 @@
 }
 
 .carrousel_about{
-    background-image: url(/img/bannerabout.png);
+    background-image: url(/img/bannerabout.jpg);
     background-size: cover;
     overflow: hidden;
     padding-left: 60px;
@@ -247,7 +250,7 @@
 }
 
 .texto_imagen_about{
-    background-image: url(/img/20.png);
+    background-image: url(/img/20.jpg);
     background-size: cover;
     display:flex;
     color:rgba(255,255,255,0.6);
@@ -283,7 +286,7 @@
 /* PREGUNTAS FRECUENTES */ 
 
 .banner_faq{
-    background-image: url(/img/faqbanner.png);
+    background-image: url(/img/faqbanner.jpg);
     background-size: cover;
     color:#fff;
     text-align: center;
@@ -315,7 +318,7 @@
 }
 
 .banner_g {
-    background-image: url(/img/gastrobanner.png);
+    background-image: url(/img/gastrobanner.jpg);
 }
 
 
@@ -335,7 +338,15 @@
 
 
 .banner_h {
-    background-image: url(/img/hotelbanner.png);
+    background-image: url(/img/hotelbanner.jpg);
+}
+
+.banner_p{
+    background-image: url(/img/packagingbanner.jpg);
+}
+
+.banner_re{
+    background-image: url(/img/regalobanner.jpg);
 }
 
 .texto_banner_h{
@@ -353,7 +364,7 @@
 }
 
 .banner_r {
-    background-image: url(/img/regalosbanner.png);
+    background-image: url(/img/regalosbanner.jpg);
 }
 
 .texto_banner_r{
@@ -370,7 +381,7 @@
 }
 
 .banner_m {
-    background-image: url(/img/merchbanner.png);
+    background-image: url(/img/merchbanner.jpg);
 }
 
 .texto_banner_m{
@@ -418,6 +429,13 @@
 
 
 @media(max-width:768px){
+
+    .texto_banner_g_main{
+        font-size: 2em;
+        text-align: center;
+        text-indent: center;
+    }
+
     .logo_sup{
       display:flex;
       justify-content: center;
@@ -434,16 +452,13 @@
     }
 
     .texto_car_1{
-    display:flex;
-    font-size: 2em;
-    font-family: 'Montserrat';
-    font-weight: 800;
-    color:#fff;
-    padding-left:5px;
-    padding-right:5px;
-    justify-content: center;
+    font-size: xx-large;
+    padding-left:2px;
+    padding-right:2px;
     text-align: center;
     }
+
+
     .boton_carru{
         display:none;
     }
@@ -459,6 +474,8 @@
         text-align: center;   
     }
     .texto_rub{
+        padding-left: 1em;
+        padding-right: 1em;
         text-align: center;
         color:#30281b;
         font-size:medium;
@@ -473,7 +490,7 @@
     }
 
     .carrousel_about{
-        background-image: url(/img/bannerabout.png);
+        background-image: url(/img/bannerabout.jpg);
         background-size: cover;
         overflow: hidden;
         padding-left: 10px;
@@ -481,14 +498,7 @@
         padding-top: 80px;
         padding-bottom: 80px;
     }
-    .texto_car_1{
-        display:flex;
-        font-size: 3em;
-        font-family: 'Montserrat';
-        font-weight: 800;
-        color:#fff;
-        justify-content:center;
-    }
+
     .about_car{
         display:none;
         color:#fff;
@@ -551,5 +561,24 @@
         text-align: center;
     }
 
+    .hidden{
+        display:none;
+    }
+
+    .subtitulo_rub{
+        font-size: x-large;
+        margin-top:3px;
+        padding-left:1em;
+        padding-right:1em;
+    }
+
     
+
+    .subtitulo_insta{
+        padding-left:2em;
+        padding-right:2em;
+        text-align: center;
+    }
+    
+   
 }
